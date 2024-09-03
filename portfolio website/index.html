@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "style.css">
+    <script src="https://kit.fontawesome.com/f87a7ed36e.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id = "header">
+        <div class = "container">
+            <nav>
+                <img src = "" class = "logo">
+                <ul>
+                    <li><a href = "#">Home</a></li>
+                    <li><a href = "#about">About</a></li>
+                    <!-- <li><a href = "#">Services</a></li> -->
+                    <li><a href = "#portfolio">Portfolio</a></li>
+                    <li><a href = "#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark"></i>
+                </ul>
+                <i class="fa-solid fa-bars"></i>
+
+            </nav>
+            
+            <div class="header-text">
+                <div class="header-left">
+                    <ul>
+                   <li> <p>Web Designer</p> </li>
+                    <li><h1>Hi, I'm <span> Sreeroja</span><br>from NIT Silchar</h1></li>
+                </ul>
+                    <!-- <img src="Untitled-design.png" alt="it's me">0 -->
+                </div>
+                <div class="header-right">
+                <img src="body-image.png" alt="my-photo" >
+                <!-- <img src="" alt=""> -->
+                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quod totam aspernatur a delectus! Iste molestiae ducimus, nesciunt exercitationem ab tempore omnis dignissimos fuga? Quas exercitationem aperiam totam nihil illo.</p> -->
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+<!-- ----------------about------------------ -->
+    <div id = "about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="PXL_20240131_111119166.PORTRAIT.jpg" alt ="" width="300" height="400">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello my name is Vusa Sreeroja. I am from NIT Silchar. I am 3rd year CSE student. 
+                        I am a passionate web developer with a good foundation in DSA. I am also member of Kho-kho club of NIT silchar.
+                        My ability to work effectively in teams has honed my collaboration and communication skills,
+                         ensuring that I contribute positively to any project and
+                         I have a deep desire to learn new technologies and adapt to evolving industry trends, 
+                         making me a versatile and forward-thinking professional.  </p>
+                        <div class="table-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <!-- <li><span>UI/UX</span><br>Designing Web/App Interfaces</li> -->
+                                <li><span>Web Development</span><br>Full stack web developer using reactJs.</li>
+                                <li><span>Java</span><br>skilled at java language.</li>
+                                <!-- <li><span>UI/UX</span><br>Designing Web/App Interfaces</li> -->
+                                <li><span>Problem Solving</span><br>Solved problems in various platforms.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <!-- <li><span>UI/UX</span><br>Designing Web/App Interfaces</li> -->
+                                <li><span>Web Development</span><br>Made a project</li>
+                                <li><span>Problem Solving</span><br>Solved problems in Hackerank, Codingninjas and Geekforgeeks.</li>
+                                <li><span>Kho-kho</span><br>representd NIT silchar at Y20 event.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2022  -present</span><br>National Institute of Technology, Silchar</li>
+                                <li><span>2020 - 2022</span><br>Intermediate, Sri Chaitanya Academy</li>
+                                <li><span>2019 - 2020</span><br>10th Standard, Dr.k.k.r.Gowtham Concept School</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- -----------------services------------------ -->
+
+    <div id="services">
+        <div class="services_container">
+            <!-- <h1 class="sub-title">My Services</h1> -->
+            <!-- <div class="services-list"> -->
+                <!-- <div class="service"> -->
+                    <!-- <i class="fa-solid fa-code-fork"></i> -->
+                    <!-- <h2 >Web Design</h2> -->
+                    <!-- <p>Created an Weather report project using Frontend development. -->
+                    <!-- I have used HTML, CSS, Javascript and API in the project. -->
+                    <!-- </p> -->
+                    <!-- <a href="#">Learn more</a> -->
+                <!-- </div> -->
+                <!-- <div class="service">  -->
+                    <!-- <i class="fa-solid fa-terminal"></i>            -->
+                    <!-- <h2></h2> -->
+                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,  -->
+                    <!-- sed do eiusmod tempor incididunt ut labore et dolore  -->
+                    <!-- magna aliqua.</p> -->
+                    <!-- <a href="#">Learn more</a></div> -->
+                    <!-- <div class="service">         -->
+                        <!-- <i class="fa-brands fa-intercom"></i>            -->
+                         <!-- <h2>App Design</h2> -->
+                        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,  -->
+                        <!-- sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
+                        <!-- <a href="#">Learn more</a></div> -->
+            <!-- </div> -->
+        </div>
+    </div>
+    <!-- -----------------portfolio------------------- -->
+    <div id="portfolio">
+        <div class="portfoilo-container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="weather.png.webp" alt="" height="300px" width="300px">
+                    <div class="layer">
+                        <h3>Weather report project.</h3>
+                        <p>The app connects you to find the weather conditions
+                          across the world.</p>
+                         <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="toDoList.png" alt="" height="300px" width="300px">
+                    <div class="layer">
+                        <h3>TODO list</h3>
+                        <p>This is interactive project using OOPS concepts
+                         .</p>
+                         <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="portfolio.png" alt="" height="300px" width="300px">
+                    <div class="layer">
+                        <h3>Portfolio Website</h3>
+                        <p>This a frontend project. Where I can connect with people 
+                         through my knowledge.</p>
+                         <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a class="btn" href="#">See More</a>
+        </div>
+    </div>
+    <!-- --------------contact-------------- -->
+    <div id="contact">
+        <div class="contact-container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> sreeroja@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 9398410414</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Sree Roja Resume - Copy.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form >
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © sree roja.</p>
+    </div>
+
+    <script>
+       var tablinks = document.getElementsByClassName("tab-links");
+       var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+             tabcontent.classList.remove("active-tab")
+             }
+             event.currentTarget.classList.add("active-link");
+             document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+
+    </script>
+
+</body>
+</html>
